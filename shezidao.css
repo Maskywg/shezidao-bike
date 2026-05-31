@@ -868,16 +868,16 @@ button {
 /* --- Mobile Toggle Elements (List/Map view) --- */
 .mobile-toggle-nav {
     display: none;
-    position: absolute;
-    top: 10px;
+    position: fixed;
+    bottom: 24px;
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--bg-secondary);
     border-radius: 30px;
     border: 1px solid var(--border-color);
-    padding: 4px;
-    z-index: 1200;
-    box-shadow: var(--shadow-md);
+    padding: 6px;
+    z-index: 2000;
+    box-shadow: var(--shadow-lg);
 }
 
 .mobile-nav-btn {
@@ -923,6 +923,10 @@ button {
     
     body.show-map-view .map-pane {
         display: block;
+    }
+    
+    .cards-container {
+        padding-bottom: 90px; /* Prevent floating nav from blocking the last card */
     }
 }
 
