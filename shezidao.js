@@ -25,16 +25,16 @@ const itineraryData = [
         image: "https://i0.wp.com/365hygge.com/wp-content/uploads/2021/02/05-2.jpg?resize=1024%2C768&ssl=1"
     },
     {
-        id: "shezidao-spicy",
-        title: "社子島第一辣",
+        id: "shezidao-scallion",
+        title: "社子第一好吃蔥油餅",
         time: "15:45 - 16:15",
         category: "food",
         latlng: [25.0991, 121.4932],
-        highlight: "🌶️ 50年老店台式美味",
-        description: "經營50年的小攤車，大腸麵線、甜不辣、肉圓佐獨門特製麻辣醬。辣醬帶有沙沙顆粒感，麻辣夠味，是車友最愛的補給下午茶。",
-        address: "台北市士林區延平北路七段150巷口",
-        icon: "fa-pepper-hot",
-        image: "https://i0.wp.com/365hygge.com/wp-content/uploads/2021/02/IMG_2682.jpg?resize=1024%2C768&ssl=1"
+        highlight: "🍳 金黃酥脆滿滿蔥花",
+        description: "在地超人氣排隊流動餐車。現炸蔥油餅外皮金黃酥脆，內部蓬鬆Q彈，打蛋後灑上大量鮮甜蔥花與特製醬汁，是車友最推的平價點心。",
+        address: "台北市士林區延平北路八段1號 (坤天亭旁)",
+        icon: "fa-egg",
+        image: "shezi_scallion_pancake.png"
     },
     {
         id: "keelung-river-view",
